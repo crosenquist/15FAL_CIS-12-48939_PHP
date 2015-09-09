@@ -25,6 +25,7 @@
 	$boolx=true;	   //Boolean
 	$booly=false;      //Boolean
 	$sx="This is a great day!";
+	$mx=10%3;    	   //Mod Operator
 	echo "<p> $ix </p>";
 	echo "<p> $fx </p>";
 	echo "<p> $fy </p>";
@@ -34,6 +35,7 @@
 	echo "<p> $bx </p>";
 	echo "<p> $boolx $booly </p>";
 	echo "<p> $sx </p>";
+	echo "<p> $mx </p>";
 ?>
 </body>
 </html>
