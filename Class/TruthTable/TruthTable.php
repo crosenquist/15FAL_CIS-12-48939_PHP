@@ -21,14 +21,14 @@
               <td>!X</td>
               <td>!Y</td>
               <td>X&&Y</td>
-              <td>X&&Y</td>
+              <td>X||Y</td>
               <td>X^Y</td>
-              <td>X^^Y</td>
               <td>X^Y^X</td>
+              <td>X^Y^Y</td>
               <td>!(X&&Y)</td>
-              <td>!X||!Y</td>
-              <td>!(X||Y)</td>
               <td>!X&&!Y</td>
+              <td>!(X||Y)</td>
+              <td>!X||!Y</td>
             </tr>
             <tr>
               <?php
@@ -39,15 +39,15 @@
 				  echo "<td>".(!$x?"T":"F")."</td>";
 				  echo "<td>".(!$y?"T":"F")."</td>";
 				  echo "<td>".($x&&$y?"T":"F")."</td>";
+				  echo "<td>".($x||$y?"T":"F")."</td>";
+				  echo "<td>".($x^$y?"T":"F")."</td>";
+				  echo "<td>".(($x^$y)^$x?"T":"F")."</td>";
+				  echo "<td>".(($x^$y)^$y?"T":"F")."</td>";
+				  echo "<td>".(!($x&&$y)?"T":"F")."</td>";
+				  echo "<td>".(!$x&&!$y?"T":"F")."</td>";
+				  echo "<td>".(!($x||$y)?"T":"F")."</td>";
+				  echo "<td>".(!$x||!$y?"T":"F")."</td>";
 			  ?>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
             </tr>
             <tr>
               <?php
@@ -58,15 +58,15 @@
 				  echo "<td>".(!$x?"T":"F")."</td>";
 				  echo "<td>".(!$y?"T":"F")."</td>";
 				  echo "<td>".($x&&$y?"T":"F")."</td>";
+				  echo "<td>".($x||$y?"T":"F")."</td>";
+				  echo "<td>".($x^$y?"T":"F")."</td>";
+				  echo "<td>".(($x^$y)^$x?"T":"F")."</td>";
+				  echo "<td>".(($x^$y)^$y?"T":"F")."</td>";
+				  echo "<td>".(!($x&&$y)?"T":"F")."</td>";
+				  echo "<td>".(!$x&&!$y?"T":"F")."</td>";
+				  echo "<td>".(!($x||$y)?"T":"F")."</td>";
+				  echo "<td>".(!$x||!$y?"T":"F")."</td>";
 			  ?>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
             </tr>
             <tr>
                <?php
@@ -77,15 +77,15 @@
 				  echo "<td>".(!$x?"T":"F")."</td>";
 				  echo "<td>".(!$y?"T":"F")."</td>";
 				  echo "<td>".($x&&$y?"T":"F")."</td>";
+				  echo "<td>".($x||$y?"T":"F")."</td>";
+				  echo "<td>".($x^$y?"T":"F")."</td>";
+				  echo "<td>".(($x^$y)^$x?"T":"F")."</td>";
+				  echo "<td>".(($x^$y)^$y?"T":"F")."</td>";
+				  echo "<td>".(!($x&&$y)?"T":"F")."</td>";
+				  echo "<td>".(!$x&&!$y?"T":"F")."</td>";
+				  echo "<td>".(!($x||$y)?"T":"F")."</td>";
+				  echo "<td>".(!$x||!$y?"T":"F")."</td>";
 			  ?>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
             </tr>
             <tr>
                <?php
@@ -96,15 +96,15 @@
 				  echo "<td>".(!$x?"T":"F")."</td>";
 				  echo "<td>".(!$y?"T":"F")."</td>";
 				  echo "<td>".($x&&$y?"T":"F")."</td>";
+				  echo "<td>".($x||$y?"T":"F")."</td>";
+				  echo "<td>".($x^$y?"T":"F")."</td>";
+				  echo "<td>".(($x^$y)^$x?"T":"F")."</td>";
+				  echo "<td>".(($x^$y)^$y?"T":"F")."</td>";
+				  echo "<td>".(!($x&&$y)?"T":"F")."</td>";
+				  echo "<td>".(!$x&&!$y?"T":"F")."</td>";
+				  echo "<td>".(!($x||$y)?"T":"F")."</td>";
+				  echo "<td>".(!$x||!$y?"T":"F")."</td>";
 			  ?>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
             </tr>
           </tbody>
         </table>
